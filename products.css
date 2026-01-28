@@ -326,11 +326,22 @@
     border-bottom: 1px solid var(--border-color);
 }
 
-.plans-heading {
+.plans-header {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.plans-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.plans-heading {
     font-size: 1.125rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     color: var(--text-secondary);
 }
 
