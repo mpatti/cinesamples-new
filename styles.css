@@ -469,6 +469,12 @@ img {
     z-index: 500;
 }
 
+@media (max-width: 768px) {
+    .top-banner {
+        display: none;
+    }
+}
+
 .top-banner .container {
     display: flex;
     align-items: center;
