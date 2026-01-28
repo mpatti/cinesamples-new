@@ -835,6 +835,60 @@ img {
     align-items: start;
 }
 
+.musio-content-centered {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.musio-content-centered .musio-badge {
+    margin: 0 auto 20px;
+}
+
+.musio-content-centered .musio-title {
+    margin-bottom: 16px;
+}
+
+.musio-content-centered .musio-description {
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.musio-features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.musio-feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
+
+.musio-feature svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: var(--accent-primary);
+}
+
+.musio-content-centered .musio-buttons {
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .musio-features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .musio-badge {
     display: inline-flex;
     align-items: center;
