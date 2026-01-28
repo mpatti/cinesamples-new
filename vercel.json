@@ -1,0 +1,626 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).css",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/product/apocalyptica-dark-cello",
+      "destination": "/products/apocalyptica-dark-cello.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/arp-quadra",
+      "destination": "/products/arp-quadra.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinebrass-core",
+      "destination": "/products/cinebrass-core.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinebrass-deep-horns",
+      "destination": "/products/cinebrass-deep-horns.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinebrass-descant-horn",
+      "destination": "/products/cinebrass-descant-horn.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinebrass-low-brass",
+      "destination": "/products/cinebrass-low-brass.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinebrass-pro",
+      "destination": "/products/cinebrass-pro.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinebrass-sonore",
+      "destination": "/products/cinebrass-sonore.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineharps",
+      "destination": "/products/cineharps.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineharpsichord",
+      "destination": "/products/cineharpsichord.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-aux",
+      "destination": "/products/cineperc-aux.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-drum-kit",
+      "destination": "/products/cineperc-drum-kit.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-epic",
+      "destination": "/products/cineperc-epic.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-metal",
+      "destination": "/products/cineperc-metal.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-orchestral",
+      "destination": "/products/cineperc-orchestral.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-tonal",
+      "destination": "/products/cineperc-tonal.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-wood",
+      "destination": "/products/cineperc-wood.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cineperc-world",
+      "destination": "/products/cineperc-world.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinepiano",
+      "destination": "/products/cinepiano.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinestrings-core",
+      "destination": "/products/cinestrings-core.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinestrings-pro",
+      "destination": "/products/cinestrings-pro.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinestrings-runs",
+      "destination": "/products/cinestrings-runs.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinestrings-solo",
+      "destination": "/products/cinestrings-solo.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinewinds-core",
+      "destination": "/products/cinewinds-core.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinewinds-low-winds",
+      "destination": "/products/cinewinds-low-winds.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cinewinds-pro",
+      "destination": "/products/cinewinds-pro.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/collision-impact-designer",
+      "destination": "/products/collision-impact-designer.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/colors",
+      "destination": "/products/colors.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cr-78",
+      "destination": "/products/cr-78.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/cr-8000",
+      "destination": "/products/cr-8000.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/dmx",
+      "destination": "/products/dmx.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/drums-in-blue",
+      "destination": "/products/drums-in-blue.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/drums-of-war-1",
+      "destination": "/products/drums-of-war-1.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/drums-of-war-2",
+      "destination": "/products/drums-of-war-2.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/drums-of-war-3",
+      "destination": "/products/drums-of-war-3.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/dulcimer-and-zither",
+      "destination": "/products/dulcimer-and-zither.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/forbes-pipe-organ",
+      "destination": "/products/forbes-pipe-organ.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/gina-luciani-cinema-flutes",
+      "destination": "/products/gina-luciani-cinema-flutes.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/hardanger-fiddle",
+      "destination": "/products/hardanger-fiddle.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/hollywoodwinds",
+      "destination": "/products/hollywoodwinds.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/iceland",
+      "destination": "/products/iceland.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/industry-brass-core",
+      "destination": "/products/industry-brass-core.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/industry-brass-pro",
+      "destination": "/products/industry-brass-pro.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/ireland",
+      "destination": "/products/ireland.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/jupiter-6",
+      "destination": "/products/jupiter-6.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/keyboard-in-blue",
+      "destination": "/products/keyboard-in-blue.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/men-of-the-north",
+      "destination": "/products/men-of-the-north.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/mono-poly",
+      "destination": "/products/mono-poly.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/oberheim-4",
+      "destination": "/products/oberheim-4.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/obxa",
+      "destination": "/products/obxa.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/octave-cat",
+      "destination": "/products/octave-cat.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/orchestral-chords",
+      "destination": "/products/orchestral-chords.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/ppg-wave-2",
+      "destination": "/products/ppg-wave-2.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/quatre",
+      "destination": "/products/quatre.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/randy-kerber-celeste",
+      "destination": "/products/randy-kerber-celeste.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/randy-kerber-prepared-piano",
+      "destination": "/products/randy-kerber-prepared-piano.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/rhodes-73-ep",
+      "destination": "/products/rhodes-73-ep.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/rhodes-chroma",
+      "destination": "/products/rhodes-chroma.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/scotland",
+      "destination": "/products/scotland.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/session-piano-grand",
+      "destination": "/products/session-piano-grand.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/sew-what",
+      "destination": "/products/sew-what.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/sk-1",
+      "destination": "/products/sk-1.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/sketchpad-monochrome",
+      "destination": "/products/sketchpad-monochrome.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/soundscapes",
+      "destination": "/products/soundscapes.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/south-africa",
+      "destination": "/products/south-africa.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/south-african-choir",
+      "destination": "/products/south-african-choir.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/south-african-female-choir",
+      "destination": "/products/south-african-female-choir.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/south-african-male-choir",
+      "destination": "/products/south-african-male-choir.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/studio-banjo",
+      "destination": "/products/studio-banjo.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/sunset-drums",
+      "destination": "/products/sunset-drums.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/synergy",
+      "destination": "/products/synergy.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/taylor-davis-violin",
+      "destination": "/products/taylor-davis-violin.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tb-303",
+      "destination": "/products/tb-303.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tina-guo-acoustic-cello",
+      "destination": "/products/tina-guo-acoustic-cello.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tina-guo-electric-cello",
+      "destination": "/products/tina-guo-electric-cello.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tina-guo-solo-cello",
+      "destination": "/products/tina-guo-solo-cello.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tr-606",
+      "destination": "/products/tr-606.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tr-707",
+      "destination": "/products/tr-707.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tr-808",
+      "destination": "/products/tr-808.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/tr-909",
+      "destination": "/products/tr-909.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/viola-da-gamba",
+      "destination": "/products/viola-da-gamba.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/vision-modern-synths",
+      "destination": "/products/vision-modern-synths.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/voces8",
+      "destination": "/products/voces8.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/voxos",
+      "destination": "/products/voxos.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/women-of-the-north",
+      "destination": "/products/women-of-the-north.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/wurly",
+      "destination": "/products/wurly.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/:slug",
+      "destination": "/products.html",
+      "permanent": false
+    },
+    {
+      "source": "/categories/strings",
+      "destination": "/products.html#strings",
+      "permanent": true
+    },
+    {
+      "source": "/category/strings",
+      "destination": "/products.html#strings",
+      "permanent": true
+    },
+    {
+      "source": "/categories/brass",
+      "destination": "/products.html#brass",
+      "permanent": true
+    },
+    {
+      "source": "/category/brass",
+      "destination": "/products.html#brass",
+      "permanent": true
+    },
+    {
+      "source": "/categories/winds",
+      "destination": "/products.html#woodwinds",
+      "permanent": true
+    },
+    {
+      "source": "/category/winds",
+      "destination": "/products.html#woodwinds",
+      "permanent": true
+    },
+    {
+      "source": "/categories/woodwinds",
+      "destination": "/products.html#woodwinds",
+      "permanent": true
+    },
+    {
+      "source": "/category/woodwinds",
+      "destination": "/products.html#woodwinds",
+      "permanent": true
+    },
+    {
+      "source": "/categories/orchestra",
+      "destination": "/products.html#strings",
+      "permanent": true
+    },
+    {
+      "source": "/category/orchestra",
+      "destination": "/products.html#strings",
+      "permanent": true
+    },
+    {
+      "source": "/categories/percussion",
+      "destination": "/products.html#percussion",
+      "permanent": true
+    },
+    {
+      "source": "/category/percussion",
+      "destination": "/products.html#percussion",
+      "permanent": true
+    },
+    {
+      "source": "/categories/keyboards",
+      "destination": "/products.html#keyboards",
+      "permanent": true
+    },
+    {
+      "source": "/category/keyboards",
+      "destination": "/products.html#keyboards",
+      "permanent": true
+    },
+    {
+      "source": "/categories/choir",
+      "destination": "/products.html#choir",
+      "permanent": true
+    },
+    {
+      "source": "/category/choir",
+      "destination": "/products.html#choir",
+      "permanent": true
+    },
+    {
+      "source": "/categories/choirs",
+      "destination": "/products.html#choir",
+      "permanent": true
+    },
+    {
+      "source": "/category/choirs",
+      "destination": "/products.html#choir",
+      "permanent": true
+    },
+    {
+      "source": "/categories/sound-design",
+      "destination": "/products.html#synths",
+      "permanent": true
+    },
+    {
+      "source": "/category/sound-design",
+      "destination": "/products.html#synths",
+      "permanent": true
+    },
+    {
+      "source": "/categories/world",
+      "destination": "/products.html#world",
+      "permanent": true
+    },
+    {
+      "source": "/category/world",
+      "destination": "/products.html#world",
+      "permanent": true
+    },
+    {
+      "source": "/categories/artist-series",
+      "destination": "/products.html#artist-series",
+      "permanent": true
+    },
+    {
+      "source": "/category/artist-series",
+      "destination": "/products.html#artist-series",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/support",
+      "destination": "https://support.cinesamples.com",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "https://support.cinesamples.com/hc/en-us/requests/new",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "https://cinesamples.com/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/sale",
+      "destination": "/products.html",
+      "permanent": true
+    },
+    {
+      "source": "/magazine",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bundles/:path*",
+      "destination": "/products.html",
+      "permanent": false
+    },
+    {
+      "source": "/store/:path*",
+      "destination": "/products.html",
+      "permanent": true
+    }
+  ]
+}

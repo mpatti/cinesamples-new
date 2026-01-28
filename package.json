@@ -1,0 +1,12 @@
+{
+  "name": "cinesamples-site",
+  "version": "1.0.0",
+  "description": "Cinesamples website with Musio marketplace integration",
+  "scripts": {
+    "scrape": "node scripts/scrape-musio.js",
+    "serve": "python3 -m http.server 3000"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}

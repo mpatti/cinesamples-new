@@ -1,0 +1,136 @@
+# Cinesamples.com Redirects
+# Generated 2026-01-27T23:56:46.434Z
+# Apache .htaccess file
+
+RewriteEngine On
+RewriteBase /
+
+# ===================================
+# Product Page Redirects
+# ===================================
+RewriteRule ^product/apocalyptica-dark-cello/?$ /products/apocalyptica-dark-cello.html [R=301,L]
+RewriteRule ^product/arp-quadra/?$ /products/arp-quadra.html [R=301,L]
+RewriteRule ^product/cinebrass-core/?$ /products/cinebrass-core.html [R=301,L]
+RewriteRule ^product/cinebrass-deep-horns/?$ /products/cinebrass-deep-horns.html [R=301,L]
+RewriteRule ^product/cinebrass-descant-horn/?$ /products/cinebrass-descant-horn.html [R=301,L]
+RewriteRule ^product/cinebrass-low-brass/?$ /products/cinebrass-low-brass.html [R=301,L]
+RewriteRule ^product/cinebrass-pro/?$ /products/cinebrass-pro.html [R=301,L]
+RewriteRule ^product/cinebrass-sonore/?$ /products/cinebrass-sonore.html [R=301,L]
+RewriteRule ^product/cineharps/?$ /products/cineharps.html [R=301,L]
+RewriteRule ^product/cineharpsichord/?$ /products/cineharpsichord.html [R=301,L]
+RewriteRule ^product/cineperc-aux/?$ /products/cineperc-aux.html [R=301,L]
+RewriteRule ^product/cineperc-drum-kit/?$ /products/cineperc-drum-kit.html [R=301,L]
+RewriteRule ^product/cineperc-epic/?$ /products/cineperc-epic.html [R=301,L]
+RewriteRule ^product/cineperc-metal/?$ /products/cineperc-metal.html [R=301,L]
+RewriteRule ^product/cineperc-orchestral/?$ /products/cineperc-orchestral.html [R=301,L]
+RewriteRule ^product/cineperc-tonal/?$ /products/cineperc-tonal.html [R=301,L]
+RewriteRule ^product/cineperc-wood/?$ /products/cineperc-wood.html [R=301,L]
+RewriteRule ^product/cineperc-world/?$ /products/cineperc-world.html [R=301,L]
+RewriteRule ^product/cinepiano/?$ /products/cinepiano.html [R=301,L]
+RewriteRule ^product/cinestrings-core/?$ /products/cinestrings-core.html [R=301,L]
+RewriteRule ^product/cinestrings-pro/?$ /products/cinestrings-pro.html [R=301,L]
+RewriteRule ^product/cinestrings-runs/?$ /products/cinestrings-runs.html [R=301,L]
+RewriteRule ^product/cinestrings-solo/?$ /products/cinestrings-solo.html [R=301,L]
+RewriteRule ^product/cinewinds-core/?$ /products/cinewinds-core.html [R=301,L]
+RewriteRule ^product/cinewinds-low-winds/?$ /products/cinewinds-low-winds.html [R=301,L]
+RewriteRule ^product/cinewinds-pro/?$ /products/cinewinds-pro.html [R=301,L]
+RewriteRule ^product/collision-impact-designer/?$ /products/collision-impact-designer.html [R=301,L]
+RewriteRule ^product/colors/?$ /products/colors.html [R=301,L]
+RewriteRule ^product/cr-78/?$ /products/cr-78.html [R=301,L]
+RewriteRule ^product/cr-8000/?$ /products/cr-8000.html [R=301,L]
+RewriteRule ^product/dmx/?$ /products/dmx.html [R=301,L]
+RewriteRule ^product/drums-in-blue/?$ /products/drums-in-blue.html [R=301,L]
+RewriteRule ^product/drums-of-war-1/?$ /products/drums-of-war-1.html [R=301,L]
+RewriteRule ^product/drums-of-war-2/?$ /products/drums-of-war-2.html [R=301,L]
+RewriteRule ^product/drums-of-war-3/?$ /products/drums-of-war-3.html [R=301,L]
+RewriteRule ^product/dulcimer-and-zither/?$ /products/dulcimer-and-zither.html [R=301,L]
+RewriteRule ^product/forbes-pipe-organ/?$ /products/forbes-pipe-organ.html [R=301,L]
+RewriteRule ^product/gina-luciani-cinema-flutes/?$ /products/gina-luciani-cinema-flutes.html [R=301,L]
+RewriteRule ^product/hardanger-fiddle/?$ /products/hardanger-fiddle.html [R=301,L]
+RewriteRule ^product/hollywoodwinds/?$ /products/hollywoodwinds.html [R=301,L]
+RewriteRule ^product/iceland/?$ /products/iceland.html [R=301,L]
+RewriteRule ^product/industry-brass-core/?$ /products/industry-brass-core.html [R=301,L]
+RewriteRule ^product/industry-brass-pro/?$ /products/industry-brass-pro.html [R=301,L]
+RewriteRule ^product/ireland/?$ /products/ireland.html [R=301,L]
+RewriteRule ^product/jupiter-6/?$ /products/jupiter-6.html [R=301,L]
+RewriteRule ^product/keyboard-in-blue/?$ /products/keyboard-in-blue.html [R=301,L]
+RewriteRule ^product/men-of-the-north/?$ /products/men-of-the-north.html [R=301,L]
+RewriteRule ^product/mono-poly/?$ /products/mono-poly.html [R=301,L]
+RewriteRule ^product/oberheim-4/?$ /products/oberheim-4.html [R=301,L]
+RewriteRule ^product/obxa/?$ /products/obxa.html [R=301,L]
+RewriteRule ^product/octave-cat/?$ /products/octave-cat.html [R=301,L]
+RewriteRule ^product/orchestral-chords/?$ /products/orchestral-chords.html [R=301,L]
+RewriteRule ^product/ppg-wave-2/?$ /products/ppg-wave-2.html [R=301,L]
+RewriteRule ^product/quatre/?$ /products/quatre.html [R=301,L]
+RewriteRule ^product/randy-kerber-celeste/?$ /products/randy-kerber-celeste.html [R=301,L]
+RewriteRule ^product/randy-kerber-prepared-piano/?$ /products/randy-kerber-prepared-piano.html [R=301,L]
+RewriteRule ^product/rhodes-73-ep/?$ /products/rhodes-73-ep.html [R=301,L]
+RewriteRule ^product/rhodes-chroma/?$ /products/rhodes-chroma.html [R=301,L]
+RewriteRule ^product/scotland/?$ /products/scotland.html [R=301,L]
+RewriteRule ^product/session-piano-grand/?$ /products/session-piano-grand.html [R=301,L]
+RewriteRule ^product/sew-what/?$ /products/sew-what.html [R=301,L]
+RewriteRule ^product/sk-1/?$ /products/sk-1.html [R=301,L]
+RewriteRule ^product/sketchpad-monochrome/?$ /products/sketchpad-monochrome.html [R=301,L]
+RewriteRule ^product/soundscapes/?$ /products/soundscapes.html [R=301,L]
+RewriteRule ^product/south-africa/?$ /products/south-africa.html [R=301,L]
+RewriteRule ^product/south-african-choir/?$ /products/south-african-choir.html [R=301,L]
+RewriteRule ^product/south-african-female-choir/?$ /products/south-african-female-choir.html [R=301,L]
+RewriteRule ^product/south-african-male-choir/?$ /products/south-african-male-choir.html [R=301,L]
+RewriteRule ^product/studio-banjo/?$ /products/studio-banjo.html [R=301,L]
+RewriteRule ^product/sunset-drums/?$ /products/sunset-drums.html [R=301,L]
+RewriteRule ^product/synergy/?$ /products/synergy.html [R=301,L]
+RewriteRule ^product/taylor-davis-violin/?$ /products/taylor-davis-violin.html [R=301,L]
+RewriteRule ^product/tb-303/?$ /products/tb-303.html [R=301,L]
+RewriteRule ^product/tina-guo-acoustic-cello/?$ /products/tina-guo-acoustic-cello.html [R=301,L]
+RewriteRule ^product/tina-guo-electric-cello/?$ /products/tina-guo-electric-cello.html [R=301,L]
+RewriteRule ^product/tina-guo-solo-cello/?$ /products/tina-guo-solo-cello.html [R=301,L]
+RewriteRule ^product/tr-606/?$ /products/tr-606.html [R=301,L]
+RewriteRule ^product/tr-707/?$ /products/tr-707.html [R=301,L]
+RewriteRule ^product/tr-808/?$ /products/tr-808.html [R=301,L]
+RewriteRule ^product/tr-909/?$ /products/tr-909.html [R=301,L]
+RewriteRule ^product/viola-da-gamba/?$ /products/viola-da-gamba.html [R=301,L]
+RewriteRule ^product/vision-modern-synths/?$ /products/vision-modern-synths.html [R=301,L]
+RewriteRule ^product/voces8/?$ /products/voces8.html [R=301,L]
+RewriteRule ^product/voxos/?$ /products/voxos.html [R=301,L]
+RewriteRule ^product/women-of-the-north/?$ /products/women-of-the-north.html [R=301,L]
+RewriteRule ^product/wurly/?$ /products/wurly.html [R=301,L]
+RewriteRule ^product/(.*)$ /products.html [R=302,L]
+
+# ===================================
+# Category Redirects
+# ===================================
+RewriteRule ^categor(y|ies)/strings/?$ /products.html#strings [R=301,L,NE]
+RewriteRule ^categor(y|ies)/brass/?$ /products.html#brass [R=301,L,NE]
+RewriteRule ^categor(y|ies)/winds/?$ /products.html#woodwinds [R=301,L,NE]
+RewriteRule ^categor(y|ies)/woodwinds/?$ /products.html#woodwinds [R=301,L,NE]
+RewriteRule ^categor(y|ies)/orchestra/?$ /products.html#strings [R=301,L,NE]
+RewriteRule ^categor(y|ies)/percussion/?$ /products.html#percussion [R=301,L,NE]
+RewriteRule ^categor(y|ies)/keyboards/?$ /products.html#keyboards [R=301,L,NE]
+RewriteRule ^categor(y|ies)/choir/?$ /products.html#choir [R=301,L,NE]
+RewriteRule ^categor(y|ies)/choirs/?$ /products.html#choir [R=301,L,NE]
+RewriteRule ^categor(y|ies)/sound-design/?$ /products.html#synths [R=301,L,NE]
+RewriteRule ^categor(y|ies)/world/?$ /products.html#world [R=301,L,NE]
+RewriteRule ^categor(y|ies)/artist-series/?$ /products.html#artist-series [R=301,L,NE]
+
+# ===================================
+# Static Page Redirects
+# ===================================
+RewriteRule ^about/?$ /#about [R=301,L]
+RewriteRule ^about/?$ /#about [R=301,L]
+RewriteRule ^support/?$ https://support.cinesamples.com [R=301,L]
+RewriteRule ^contact/?$ https://support.cinesamples.com/hc/en-us/requests/new [R=301,L]
+RewriteRule ^privacy-policy/?$ https://cinesamples.com/privacy-policy [R=301,L]
+RewriteRule ^sale/?$ /products.html [R=301,L]
+RewriteRule ^magazine/?$ / [R=301,L]
+
+# ===================================
+# Bundle Redirects
+# ===================================
+RewriteRule ^bundles?/(.*)$ /products.html [R=302,L]
+
+# ===================================
+# Legacy Store Paths
+# ===================================
+RewriteRule ^store/?(.*)$ /products.html [R=301,L]
+RewriteRule ^cart/?$ /products.html [R=301,L]
+RewriteRule ^checkout/?$ /products.html [R=301,L]

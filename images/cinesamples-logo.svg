@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle-Copy" fill="#1A1925" x="0" y="0" width="500" height="500" rx="37"></rect>
+            <path d="M250,83 C275.331284,83 299.345292,88.6399302 320.854812,98.7325789 L298.549186,146.824836 C283.819748,139.881772 267.363192,136 250,136 C187.039539,136 136,187.039539 136,250 C136,312.960461 187.039539,364 250,364 C312.276211,364 362.889202,314.063823 363.981965,252.048478 L416.99,251.231 L416.977627,252.76165 C415.502885,343.719445 341.309238,417 250,417 C157.768447,417 83,342.231553 83,250 C83,157.768447 157.768447,83 250,83 Z" id="Combined-Shape-Copy" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
