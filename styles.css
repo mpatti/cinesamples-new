@@ -949,6 +949,12 @@ img {
     color: var(--text-muted);
 }
 
+.pricing-alt {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
 .pricing-features {
     list-style: none;
     display: flex;
