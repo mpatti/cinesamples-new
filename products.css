@@ -463,20 +463,88 @@
 
 @media (max-width: 768px) {
     .musio-plans-banner {
-        padding: 25px 0;
+        padding: 20px 0;
+    }
+    
+    .plans-heading {
+        font-size: 1.125rem;
+        margin-bottom: 15px;
     }
     
     .plans-grid {
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
     }
     
     .plan-divider {
-        padding: 8px 0;
+        padding: 6px 0;
+    }
+    
+    .plan-divider span {
+        font-size: 0.75rem;
     }
     
     .plan-option {
-        padding: 18px 16px;
+        padding: 16px 14px;
+    }
+    
+    .plan-option h3 {
+        font-size: 1.125rem;
+    }
+    
+    .plan-price {
+        font-size: 1.25rem;
+    }
+    
+    .plan-features {
+        font-size: 0.8125rem;
+    }
+    
+    .plan-option .btn {
+        padding: 8px 16px;
+        font-size: 0.75rem;
+    }
+    
+    /* Product cards mobile */
+    .product-card {
+        margin-bottom: 16px;
+    }
+    
+    .product-title {
+        font-size: 0.9375rem;
+    }
+    
+    .product-actions {
+        flex-direction: row;
+        gap: 8px;
+    }
+    
+    .product-actions .btn-sm {
+        flex: 1;
+        padding: 8px 12px;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .plans-heading {
+        font-size: 1rem;
+    }
+    
+    .plan-option {
+        padding: 14px 12px;
+    }
+    
+    .plan-price {
+        font-size: 1.125rem;
+    }
+    
+    .product-actions {
+        flex-direction: column;
+    }
+    
+    .product-actions .btn-sm {
+        width: 100%;
     }
 }
 

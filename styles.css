@@ -1151,11 +1151,13 @@ img {
     }
     
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        line-height: 1.2;
     }
     
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 0.9375rem;
+        max-width: 100%;
     }
     
     .hero-grid {
@@ -1163,17 +1165,34 @@ img {
     }
     
     .hero-grid-bg {
-        transform: rotate(-12deg) scale(1.8);
-        opacity: 0.4;
+        transform: rotate(-12deg) scale(2);
+        opacity: 0.5;
+        inset: -50%;
     }
     
     .hero-grid-row img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
+        border-radius: 6px;
+    }
+    
+    .hero-grid-row {
+        gap: 8px;
+    }
+    
+    .hero-grid-container {
+        gap: 8px;
     }
     
     .hero-grid .hero-content {
-        padding-top: 120px;
+        padding: 100px 20px 40px;
+        text-align: center;
+    }
+    
+    .hero-grid .hero-overlay {
+        background: 
+            radial-gradient(ellipse 100% 60% at 50% 50%, transparent 0%, rgba(13, 13, 15, 0.8) 60%),
+            linear-gradient(to bottom, rgba(13, 13, 15, 0.4) 0%, rgba(13, 13, 15, 0.6) 30%, rgba(13, 13, 15, 0.98) 100%);
     }
     
     .hero-stats {
@@ -1210,11 +1229,52 @@ img {
         gap: 20px;
         text-align: center;
     }
+    
+    /* Musio section mobile */
+    .musio-content {
+        padding: 0 16px;
+    }
+    
+    .musio-title {
+        font-size: 1.5rem;
+    }
+    
+    .musio-description {
+        font-size: 0.9375rem;
+    }
+    
+    .musio-pricing {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .pricing-card {
+        padding: 20px;
+    }
+    
+    /* About section mobile */
+    .about-text p {
+        font-size: 0.9375rem;
+    }
+    
+    /* Kontakt notice mobile */
+    .kontakt-notice-small {
+        padding: 12px 0;
+    }
+    
+    .kontakt-notice-small p {
+        font-size: 0.8125rem;
+        line-height: 1.5;
+    }
 }
 
 @media (max-width: 480px) {
     .category-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .hero-title {
+        font-size: 1.5rem;
     }
     
     .hero-buttons {
@@ -1234,5 +1294,27 @@ img {
     .top-banner span,
     .top-banner a {
         font-size: 0.8125rem;
+    }
+    
+    .hero-grid-row img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .hero-grid .hero-content {
+        padding: 90px 16px 30px;
+    }
+    
+    /* Pricing cards on small screens */
+    .musio-pricing {
+        padding: 0 8px;
+    }
+    
+    .pricing-card {
+        padding: 16px;
+    }
+    
+    .pricing-price .price-amount {
+        font-size: 1.5rem;
     }
 }
