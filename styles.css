@@ -1172,12 +1172,21 @@ img {
     }
     
     .hero-grid-bg {
-        transform: rotate(-8deg) scale(2.5);
-        opacity: 0.45;
-        top: -30%;
-        left: -80%;
-        right: -80%;
-        bottom: -80%;
+        transform: rotate(0deg) scale(1);
+        opacity: 0.35;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        height: 50vh;
+    }
+    
+    .hero-grid-container {
+        gap: 8px;
+    }
+    
+    .hero-grid-row {
+        animation: none !important; /* Disable animation on mobile */
     }
     
     .hero-grid-row img {
@@ -1200,9 +1209,11 @@ img {
     }
     
     .hero-grid .hero-overlay {
-        background: 
-            radial-gradient(ellipse 120% 80% at 50% 30%, transparent 0%, rgba(13, 13, 15, 0.6) 50%),
-            linear-gradient(to bottom, rgba(13, 13, 15, 0.2) 0%, rgba(13, 13, 15, 0.5) 50%, rgba(13, 13, 15, 0.95) 100%);
+        background: linear-gradient(to bottom, 
+            rgba(13, 13, 15, 0.3) 0%, 
+            rgba(13, 13, 15, 0.7) 30%,
+            rgba(13, 13, 15, 1) 50%,
+            rgba(13, 13, 15, 1) 100%);
     }
     
     .hero-stats {
