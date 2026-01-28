@@ -362,7 +362,7 @@ img {
 .hero-grid .hero-content {
     position: relative;
     z-index: 2;
-    padding-top: 140px;
+    padding-top: 180px; /* Account for fixed navbar (70px) + banner (~40px) + spacing */
 }
 
 .hero-overlay {
@@ -457,6 +457,11 @@ img {
    Top Banner
    =========================================== */
 .top-banner {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 999;
     background: var(--accent-primary);
     padding: 10px 0;
     text-align: center;
@@ -1185,7 +1190,7 @@ img {
     }
     
     .hero-grid .hero-content {
-        padding: 100px 20px 40px;
+        padding: 160px 20px 40px; /* Account for fixed navbar + banner on mobile */
         text-align: center;
     }
     
@@ -1302,7 +1307,7 @@ img {
     }
     
     .hero-grid .hero-content {
-        padding: 90px 16px 30px;
+        padding: 150px 16px 30px; /* Account for fixed navbar + banner */
     }
     
     /* Pricing cards on small screens */
