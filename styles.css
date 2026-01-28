@@ -826,6 +826,7 @@ img {
     padding: var(--section-padding) 0;
     background: var(--bg-secondary);
     position: relative;
+    border-top: 1px solid var(--border-color);
 }
 
 .musio-content {
