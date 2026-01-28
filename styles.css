@@ -298,7 +298,10 @@ img {
 
 .hero-grid-bg {
     position: absolute;
-    inset: -30%;
+    top: 0;
+    left: -30%;
+    right: -30%;
+    bottom: -30%;
     z-index: 0;
     transform: rotate(-12deg) scale(1.5);
     opacity: 0.6;
@@ -461,9 +464,9 @@ img {
     position: relative;
     margin-top: 70px; /* Push below fixed navbar */
     background: var(--accent-primary);
-    padding: 10px 0;
+    padding: 12px 0;
     text-align: center;
-    z-index: 100;
+    z-index: 500;
 }
 
 .top-banner .container {
@@ -1171,7 +1174,10 @@ img {
     .hero-grid-bg {
         transform: rotate(-12deg) scale(2);
         opacity: 0.5;
-        inset: -50%;
+        top: 0;
+        left: -50%;
+        right: -50%;
+        bottom: -50%;
     }
     
     .hero-grid-row img {
